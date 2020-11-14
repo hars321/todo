@@ -1,0 +1,98 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@523&family=Ubuntu:wght@300&display=swap'); */
+
+.Item{
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.Item-parent{
+    align-items: center;
+    
+}
+
+.Todo-Heading{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: solid black;
+    background: white;
+    font-family: 'Dancing Script', cursive;
+    padding: 1rem;
+}
+
+.Todo-Present-Items{
+    display: flex;
+    flex-direction: column;
+}
+
+.Todo-Body{
+    width: 50vw;
+}
+.Item-Button{
+    font-family: cursive;
+    border: none;
+    background: rgba(212, 205, 205, 0.281);
+    box-shadow: none;
+    border-radius: 0px;
+    outline: 0 ;
+    margin:4px;
+}
+.Item-Button::-moz-focus-inner {
+    outline: 0;
+}
+
+.Todo-Background{
+    background-color: rgba(255, 255, 255, 0.226);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.226);
+}
+.Todo-Add-New-Item-Parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.Todo-Add-New-Item{
+    display: flex;
+    text-align: center;
+    
+    background-color: transparent;
+    border:none;
+    border-bottom:thin solid black;
+    height: 2rem;
+}
+.Todo-Add-New-Item:focus{
+    outline: none;
+    border:none;
+    border-bottom: solid black;
+}
+
+.Item-name{
+    width: 10vw;
+    word-wrap: break-word;
+}
+.Item-description{
+    width: 10vw;
+    word-wrap: break-word;
+}
+.Edit-buttons{
+    display: flex;
+    flex-direction: column;
+}
+.Add-Item{
+    background-color: rgba(255, 255, 255, 0.438);
+    height: 2rem;
+    width: auto;
+}
+.Save-Buttons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
